@@ -23,6 +23,15 @@
 		9D6AE0F618EF8F6400593445 /* VibraphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AE0F518EF8F6400593445 /* VibraphoneTests.m */; };
 		9D6AE10018F0597400593445 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6AE0FF18F0597400593445 /* AudioToolbox.framework */; };
 		9D6AE10218F05DB000593445 /* vibraphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE10118F05DB000593445 /* vibraphone.png */; };
+		9D6AE11318F066DC00593445 /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE10E18F066DC00593445 /* 29x29.png */; };
+		9D6AE11418F066DC00593445 /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE10F18F066DC00593445 /* 58x58.png */; };
+		9D6AE11518F066DC00593445 /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11018F066DC00593445 /* 80x80.png */; };
+		9D6AE11618F066DC00593445 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11118F066DC00593445 /* 114x114.png */; };
+		9D6AE11718F066DC00593445 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11218F066DC00593445 /* 120x120.png */; };
+		9D6AE11A18F0678E00593445 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11818F0678E00593445 /* Default~iphone.png */; };
+		9D6AE11B18F0678E00593445 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11918F0678E00593445 /* Default.png */; };
+		9D6AE11D18F0684200593445 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11C18F0684200593445 /* Default@2x.png */; };
+		9D6AE11F18F0686F00593445 /* vibraphone-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE11E18F0686F00593445 /* vibraphone-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,16 @@
 		9D6AE0F518EF8F6400593445 /* VibraphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibraphoneTests.m; sourceTree = "<group>"; };
 		9D6AE0FF18F0597400593445 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9D6AE10118F05DB000593445 /* vibraphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vibraphone.png; sourceTree = "<group>"; };
+		9D6AE10D18F0665D00593445 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
+		9D6AE10E18F066DC00593445 /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
+		9D6AE10F18F066DC00593445 /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		9D6AE11018F066DC00593445 /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		9D6AE11118F066DC00593445 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		9D6AE11218F066DC00593445 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		9D6AE11818F0678E00593445 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		9D6AE11918F0678E00593445 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9D6AE11C18F0684200593445 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9D6AE11E18F0686F00593445 /* vibraphone-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vibraphone-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +151,16 @@
 		9D6AE0D118EF8F6400593445 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D6AE11818F0678E00593445 /* Default~iphone.png */,
+				9D6AE11918F0678E00593445 /* Default.png */,
+				9D6AE10E18F066DC00593445 /* 29x29.png */,
+				9D6AE11E18F0686F00593445 /* vibraphone-logo.png */,
+				9D6AE11C18F0684200593445 /* Default@2x.png */,
+				9D6AE10F18F066DC00593445 /* 58x58.png */,
+				9D6AE11018F066DC00593445 /* 80x80.png */,
+				9D6AE11118F066DC00593445 /* 114x114.png */,
+				9D6AE11218F066DC00593445 /* 120x120.png */,
+				9D6AE10D18F0665D00593445 /* 57x57.png */,
 				9D6AE10118F05DB000593445 /* vibraphone.png */,
 				9D6AE0D218EF8F6400593445 /* Vibraphone-Info.plist */,
 				9D6AE0D318EF8F6400593445 /* InfoPlist.strings */,
@@ -239,9 +268,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6AE0E318EF8F6400593445 /* Images.xcassets in Resources */,
+				9D6AE11718F066DC00593445 /* 120x120.png in Resources */,
 				9D6AE0D518EF8F6400593445 /* InfoPlist.strings in Resources */,
+				9D6AE11618F066DC00593445 /* 114x114.png in Resources */,
+				9D6AE11B18F0678E00593445 /* Default.png in Resources */,
+				9D6AE11518F066DC00593445 /* 80x80.png in Resources */,
 				9D6AE0DE18EF8F6400593445 /* Main.storyboard in Resources */,
+				9D6AE11F18F0686F00593445 /* vibraphone-logo.png in Resources */,
 				9D6AE10218F05DB000593445 /* vibraphone.png in Resources */,
+				9D6AE11A18F0678E00593445 /* Default~iphone.png in Resources */,
+				9D6AE11418F066DC00593445 /* 58x58.png in Resources */,
+				9D6AE11318F066DC00593445 /* 29x29.png in Resources */,
+				9D6AE11D18F0684200593445 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,13 +423,12 @@
 		9D6AE0FA18EF8F6400593445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vibraphone/Vibraphone-Prefix.pch";
 				INFOPLIST_FILE = "Vibraphone/Vibraphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -401,13 +438,12 @@
 		9D6AE0FB18EF8F6400593445 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vibraphone/Vibraphone-Prefix.pch";
 				INFOPLIST_FILE = "Vibraphone/Vibraphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
