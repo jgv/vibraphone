@@ -17,8 +17,33 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+    // load the camera
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    picker.allowsEditing = NO;
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    [self presentViewController:picker animated:YES completion:nil];
+    
+    // vibrate in perpetuity
+    NSMutableDictionary* dict = [NSMutableDictionary dictionary];
+    AudioServicesPlaySystemSoundWithVibration(4095,nil,dict);
+}
+
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    // Code here to work with media
+    UIImage *image = info[UIImagePickerControllerOriginalImage];
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

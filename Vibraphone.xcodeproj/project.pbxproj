@@ -21,6 +21,8 @@
 		9D6AE0EC18EF8F6400593445 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6AE0CE18EF8F6400593445 /* UIKit.framework */; };
 		9D6AE0F418EF8F6400593445 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE0F218EF8F6400593445 /* InfoPlist.strings */; };
 		9D6AE0F618EF8F6400593445 /* VibraphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AE0F518EF8F6400593445 /* VibraphoneTests.m */; };
+		9D6AE10018F0597400593445 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6AE0FF18F0597400593445 /* AudioToolbox.framework */; };
+		9D6AE10218F05DB000593445 /* vibraphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6AE10118F05DB000593445 /* vibraphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9D6AE0F118EF8F6400593445 /* VibraphoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VibraphoneTests-Info.plist"; sourceTree = "<group>"; };
 		9D6AE0F318EF8F6400593445 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D6AE0F518EF8F6400593445 /* VibraphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibraphoneTests.m; sourceTree = "<group>"; };
+		9D6AE0FF18F0597400593445 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9D6AE10118F05DB000593445 /* vibraphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vibraphone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6AE10018F0597400593445 /* AudioToolbox.framework in Frameworks */,
 				9D6AE0CD18EF8F6400593445 /* CoreGraphics.framework in Frameworks */,
 				9D6AE0CF18EF8F6400593445 /* UIKit.framework in Frameworks */,
 				9D6AE0CB18EF8F6400593445 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		9D6AE0C918EF8F6400593445 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D6AE0FF18F0597400593445 /* AudioToolbox.framework */,
 				9D6AE0CA18EF8F6400593445 /* Foundation.framework */,
 				9D6AE0CC18EF8F6400593445 /* CoreGraphics.framework */,
 				9D6AE0CE18EF8F6400593445 /* UIKit.framework */,
@@ -126,6 +132,7 @@
 		9D6AE0D118EF8F6400593445 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D6AE10118F05DB000593445 /* vibraphone.png */,
 				9D6AE0D218EF8F6400593445 /* Vibraphone-Info.plist */,
 				9D6AE0D318EF8F6400593445 /* InfoPlist.strings */,
 				9D6AE0D618EF8F6400593445 /* main.m */,
@@ -199,6 +206,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jonathan Vingiano";
 				TargetAttributes = {
+					9D6AE0C618EF8F6400593445 = {
+						DevelopmentTeam = VXY5P4MJAX;
+					};
 					9D6AE0E718EF8F6400593445 = {
 						TestTargetID = 9D6AE0C618EF8F6400593445;
 					};
@@ -231,6 +241,7 @@
 				9D6AE0E318EF8F6400593445 /* Images.xcassets in Resources */,
 				9D6AE0D518EF8F6400593445 /* InfoPlist.strings in Resources */,
 				9D6AE0DE18EF8F6400593445 /* Main.storyboard in Resources */,
+				9D6AE10218F05DB000593445 /* vibraphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +387,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vibraphone/Vibraphone-Prefix.pch";
 				INFOPLIST_FILE = "Vibraphone/Vibraphone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vibraphone/Vibraphone-Prefix.pch";
 				INFOPLIST_FILE = "Vibraphone/Vibraphone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
